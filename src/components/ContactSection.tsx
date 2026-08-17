@@ -110,16 +110,16 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
 
   return (
     <section id="contato" className="py-20 md:py-28 bg-[#0c1015] relative overflow-hidden">
-      {/* Background Image with dark luxury overlays */}
+      {/* Background Image with balanced executive overlays */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <img
           src={imgContactBg}
           alt="Executive Boardroom Background"
           referrerPolicy="no-referrer"
-          className="w-full h-full object-cover object-center opacity-20 brightness-75 contrast-100"
+          className="w-full h-full object-cover object-center opacity-35 brightness-95 contrast-100"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0c1015]/90 via-[#0c1015]/80 to-[#0c1015]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_20%,#0c1015_80%)]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0c1015]/75 via-[#0c1015]/60 to-[#0c1015]/90" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_30%,#0c1015_85%)]" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

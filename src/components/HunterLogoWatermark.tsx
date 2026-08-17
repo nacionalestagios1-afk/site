@@ -9,7 +9,7 @@ interface HunterLogoWatermarkProps {
 
 export const HunterLogoWatermark: React.FC<HunterLogoWatermarkProps> = ({
   position = 'center',
-  opacity = 0.05,
+  opacity = 0.10,
   size = 'lg',
   showWordmark = true
 }) => {

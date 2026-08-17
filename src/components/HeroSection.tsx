@@ -14,16 +14,15 @@ export const HeroSection: React.FC = () => {
             src={corporateHeroImage}
             alt="Ambiente Corporativo de Alta Performance Hunter RH"
             referrerPolicy="no-referrer"
-            className="w-full h-full object-cover object-center brightness-75 contrast-100 opacity-25"
+            className="w-full h-full object-cover object-center brightness-100 contrast-100 opacity-100"
           />
-          {/* Executive Overlay Gradients - Dark, sleek and corporate */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#070a0e]/85 via-[#0c1015]/75 to-[#0c1015]" />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#070a0e]/80 via-transparent to-[#070a0e]/80" />
+          {/* Subtle bottom blend gradient only at the very edge */}
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[#0c1015]/80" />
         </div>
 
         {/* Main Initial Headline (Positioned over the top image) */}
         <div className="max-w-5xl mx-auto text-center relative z-10">
-          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-snug sm:leading-[1.15] max-w-4xl mx-auto drop-shadow-lg">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white tracking-tight leading-snug sm:leading-[1.15] max-w-4xl mx-auto drop-shadow-[0_4px_16px_rgba(0,0,0,0.95)]">
             Transforme Pessoas em Resultados com{' '}
             <span className="text-gold-gradient">
               RH por Competência
