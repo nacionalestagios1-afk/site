@@ -22,9 +22,6 @@ export const Footer: React.FC = () => {
       {/* Background Hunter Logo Watermark */}
       <HunterLogoWatermark position="right" size="lg" opacity={0.04} showWordmark={false} />
 
-      {/* Background glow */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3/4 h-24 bg-[#D3AF37]/5 blur-[100px] pointer-events-none" />
-
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Grid */}
@@ -133,7 +130,9 @@ export const Footer: React.FC = () => {
               </a>
               <div className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-[#D3AF37] flex-shrink-0" />
-                <span>contato@hunterrh.com.br</span>
+                <a href="mailto:contato@rhhunter.netlify.app" className="hover:text-[#D3AF37] transition-colors">
+                  contato@rhhunter.netlify.app
+                </a>
               </div>
               <div className="flex items-start gap-2">
                 <MapPin className="w-3.5 h-3.5 text-[#D3AF37] flex-shrink-0 mt-0.5" />

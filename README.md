@@ -96,4 +96,4 @@ O projeto já inclui os arquivos de configuração necessários para o Netlify (
 - **Agente / Razão Social**: Hunter Recursos Humanos Inteligentes
 - **CNPJ**: 54.013.036/0001-39
 - **Endereço**: Rua Alvares Cabral, Nº 106, Sala 504, Bairro Fabrício, Uberaba - MG, CEP: 38.065-240
-- **Contato Comercial**: contato@hunterrh.com.br | (31) 99629-0458
+- **Contato Comercial**: contato@rhhunter.netlify.app | (31) 99629-0458

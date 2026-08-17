@@ -43,10 +43,7 @@ export const MethodologySection: React.FC = () => {
   return (
     <section id="metodologia" className="py-20 md:py-28 bg-[#090d12] relative overflow-hidden">
       {/* Background Hunter Logo Watermark */}
-      <HunterLogoWatermark position="center" size="xl" opacity={0.22} showWordmark={true} />
-
-      {/* Background radial glow */}
-      <div className="absolute top-1/2 right-10 w-[550px] h-[550px] bg-[#D3AF37]/15 blur-[140px] rounded-full pointer-events-none" />
+      <HunterLogoWatermark position="center" size="xl" opacity={0.05} showWordmark={true} />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         

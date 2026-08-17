@@ -49,7 +49,7 @@ export const HunterLogo: React.FC<HunterLogoProps> = ({
           viewBox="0 0 120 120"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-full h-full drop-shadow-[0_2px_12px_rgba(211,175,55,0.35)]"
+          className="w-full h-full drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]"
         >
           <defs>
             {/* Primary #D3AF37 Gold Gradient - brighter and clearer */}

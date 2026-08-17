@@ -9,7 +9,7 @@ interface HunterLogoWatermarkProps {
 
 export const HunterLogoWatermark: React.FC<HunterLogoWatermarkProps> = ({
   position = 'center',
-  opacity = 0.20,
+  opacity = 0.05,
   size = 'lg',
   showWordmark = true
 }) => {
@@ -37,7 +37,7 @@ export const HunterLogoWatermark: React.FC<HunterLogoWatermarkProps> = ({
           viewBox="0 0 120 120"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="w-full h-full drop-shadow-[0_0_100px_rgba(211,175,55,0.7)]"
+          className="w-full h-full"
         >
           <defs>
             <linearGradient id="watermarkGold" x1="0%" y1="0%" x2="100%" y2="100%">

@@ -14,15 +14,12 @@ export const HeroSection: React.FC = () => {
             src={corporateHeroImage}
             alt="Ambiente Corporativo de Alta Performance Hunter RH"
             referrerPolicy="no-referrer"
-            className="w-full h-full object-cover object-center brightness-125 contrast-100"
+            className="w-full h-full object-cover object-center brightness-75 contrast-100 opacity-25"
           />
-          {/* Executive Overlay Gradients - softened for higher brightness and clarity */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#070a0e]/30 via-[#0c1015]/20 to-[#0c1015]/65" />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#070a0e]/30 via-transparent to-[#070a0e]/30" />
+          {/* Executive Overlay Gradients - Dark, sleek and corporate */}
+          <div className="absolute inset-0 bg-gradient-to-b from-[#070a0e]/85 via-[#0c1015]/75 to-[#0c1015]" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#070a0e]/80 via-transparent to-[#070a0e]/80" />
         </div>
-
-        {/* Ambient Top Glow */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-[#D3AF37]/25 blur-[120px] rounded-full pointer-events-none -z-10" />
 
         {/* Main Initial Headline (Positioned over the top image) */}
         <div className="max-w-5xl mx-auto text-center relative z-10">
