@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+:root {
+  --hunter-gold: #D3AF37;
+  --hunter-gold-light: #F5E49B;
+  --hunter-gold-dark: #A6831A;
+  --hunter-gold-subtle: rgba(211, 175, 55, 0.35);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color: #ffffff;
+    overflow-y: scroll; /* Garante que a barra de rolagem fique sempre visível */
+    scrollbar-color: #D3AF37 #090d12;
+    scrollbar-width: thin;
+  }
+  body {
+    color: #ffffff;
+    background-color: #0c1015;
+    overflow-y: scroll;
+    scrollbar-color: #D3AF37 #090d12;
+    scrollbar-width: thin;
+  }
+  input, select, textarea, button {
+    color: #ffffff;
+  }
+  ::placeholder {
+    color: #94a3b8;
+    opacity: 0.8;
+  }
+}
+
+/* Custom Gold & Metallic gradients aligned with #D3AF37 */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #F9F1D0 0%, #D3AF37 50%, #A6831A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gold-bright {
+  background: linear-gradient(135deg, #FFFDEB 0%, #E8CB68 50%, #D3AF37 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, #E2C45E 0%, #D3AF37 50%, #A6831A 100%);
+}
+
+.bg-gold-glow {
+  background: radial-gradient(circle at center, rgba(211, 175, 55, 0.18) 0%, rgba(12, 16, 21, 0) 70%);
+}
+
+.border-gold-subtle {
+  border-color: #D3AF37;
+}
+
+.glow-gold {
+  box-shadow: 0 0 25px -5px rgba(211, 175, 55, 0.35);
+}
+
+.glow-gold-sm {
+  box-shadow: 0 0 15px -3px rgba(211, 175, 55, 0.25);
+}
+
+/* Custom dark and gold persistent scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-track {
+  background: #090d12;
+  border-left: 1px solid rgba(211, 175, 55, 0.2);
+}
+::-webkit-scrollbar-thumb {
+  background: #D3AF37;
+  border-radius: 6px;
+  border: 2px solid #090d12;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #E5C358;
+}
+
+/* Custom Thin White Slider Track for Calculator */
+input[type="range"].white-slider-track {
+  background-color: transparent !important;
+  height: 16px;
+}
+
+input[type="range"].white-slider-track::-webkit-slider-runnable-track {
+  background-color: #ffffff;
+  border-radius: 9999px;
+  height: 2px;
+}
+
+input[type="range"].white-slider-track::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #D3AF37;
+  cursor: pointer;
+  margin-top: -8px;
+  border: 2px solid #0c1015;
+  box-shadow: 0 0 10px rgba(211, 175, 55, 0.7);
+  transition: transform 0.15s ease;
+}
+
+input[type="range"].white-slider-track::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+  background: #E5C358;
+}
+
+input[type="range"].white-slider-track::-moz-range-track {
+  background-color: #ffffff;
+  border-radius: 9999px;
+  height: 2px;
+}
+
+input[type="range"].white-slider-track::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #D3AF37;
+  cursor: pointer;
+  border: 2px solid #0c1015;
+  box-shadow: 0 0 10px rgba(211, 175, 55, 0.7);
+  transition: transform 0.15s ease;
+}
+
+input[type="range"].white-slider-track::-moz-range-thumb:hover {
+  transform: scale(1.15);
+  background: #E5C358;
+}
+
+/* Mobile optimizations */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (max-width: 640px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
+
+
+

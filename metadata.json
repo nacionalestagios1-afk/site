@@ -1,0 +1,6 @@
+{
+  "name": "Hunter Recursos Humanos Inteligentes",
+  "description": "Consultoria especializada em RH por Competência, combate ao turnover e implantação completa de subsistemas de recursos humanos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
